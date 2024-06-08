@@ -1,0 +1,54 @@
+.error-message {
+    color: red;
+    display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+form {
+    max-width: 60%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+}
+
+input, select, textarea, button {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: calc(50% - 5px);
+    margin-right: 10px;
+}
+
+button[type="reset"] {
+    margin-right: 0;
+}
+.btnEnviar {
+    width: 70px;
+    display: inline-block;
+    background-color: rgb(28, 162, 224);
+    color: white
+}
+.btnCancelar {
+    width: 70px;
+    display: inline-block;
+    background-color: gray;
+    color:white
+}
